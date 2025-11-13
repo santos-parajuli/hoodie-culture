@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///Users/santoshparajuli/hoodie-culture/app/admin/page.tsx"],"sourcesContent":["import { SidebarInset } from '@/components/ui/sidebar';\n\nexport default function AdminPage() {\n\treturn (\n\t\t<SidebarInset>\n\t\t\t<div className='flex flex-1 flex-col gap-4 p-4'>\n\t\t\t\t<div className='grid auto-rows-min gap-4 md:grid-cols-3'>\n\t\t\t\t\t<div className='bg-muted/50 aspect-video rounded-xl' />\n\t\t\t\t\t<div className='bg-muted/50 aspect-video rounded-xl' />\n\t\t\t\t\t<div className='bg-muted/50 aspect-video rounded-xl' />\n\t\t\t\t</div>\n\t\t\t\t<div className='bg-muted/50 min-h-[100vh] flex-1 rounded-xl md:min-h-min' />\n\t\t\t</div>\n\t\t</SidebarInset>\n\t);\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACvB,qBACC,8OAAC,4IAAY;kBACZ,cAAA,8OAAC;YAAI,WAAU;;8BACd,8OAAC;oBAAI,WAAU;;sCACd,8OAAC;4BAAI,WAAU;;;;;;sCACf,8OAAC;4BAAI,WAAU;;;;;;sCACf,8OAAC;4BAAI,WAAU;;;;;;;;;;;;8BAEhB,8OAAC;oBAAI,WAAU;;;;;;;;;;;;;;;;;AAInB","debugId":null}}]
+}

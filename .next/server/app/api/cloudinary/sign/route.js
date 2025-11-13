@@ -1,0 +1,10 @@
+var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/cloudinary/sign/route.js")
+R.c("server/chunks/node_modules_next_ef348682._.js")
+R.c("server/chunks/node_modules_lodash_9f355569._.js")
+R.c("server/chunks/node_modules_cloudinary_0ecd8ca6._.js")
+R.c("server/chunks/node_modules_jose_dist_webapi_421ee2e8._.js")
+R.c("server/chunks/node_modules_53cc5115._.js")
+R.c("server/chunks/[root-of-the-server]__7a002004._.js")
+R.m("[project]/.next-internal/server/app/api/cloudinary/sign/route/actions.js [app-rsc] (server actions loader, ecmascript)")
+R.m("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/app/api/cloudinary/sign/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)")
+module.exports=R.m("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/app/api/cloudinary/sign/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)").exports

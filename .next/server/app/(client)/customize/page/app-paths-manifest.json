@@ -1,0 +1,3 @@
+{
+  "/(client)/customize/page": "app/(client)/customize/page.js"
+}
