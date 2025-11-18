@@ -110,4 +110,4 @@ Here is a high-level overview of the project's folder structure:
     ├── helpers/          # Helper functions
     ├── models/           # Mongoose schemas
     └── types/            # TypeScript types and interfaces
-```
+```# hoodie-culture
