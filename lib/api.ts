@@ -1,7 +1,7 @@
 import { CartItemInterface, CategoryInterface, Customer, DbUserAddress, ImageInterface, OrderInterface, ProductInterface, ProductVariantInterface } from '@/utils/types/types';
 
 export const apiClient = async <T>(endpoint: string, options?: RequestInit): Promise<T> => {
-	const baseUrl = typeof window === 'undefined' ? process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000' : '';
+	const baseUrl = typeof window === 'undefined' ? process.env.URL || 'http://localhost:3000' : '';
 	const headers: HeadersInit = {
 		'Content-Type': 'application/json',
 		...(options?.headers || {}),
