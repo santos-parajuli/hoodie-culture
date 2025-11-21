@@ -41,7 +41,7 @@ export default function ImageUpload({ onUpload, initialImages = [], maxFiles = 3
 				formData.append('timestamp', timestamp);
 				formData.append('signature', signature);
 				const xhr = new XMLHttpRequest();
-				xhr.open('POST', `https://api.cloudinary.com/v1_1/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload`, true);
+				xhr.open('POST', `https://api.cloudinary.com/v1_1/${process.env.CLOUDINARY_CLOUD_NAME}/image/upload`, true);
 				xhr.upload.onprogress = (event) => {
 					setProgress((prev) => ({
 						...prev,
