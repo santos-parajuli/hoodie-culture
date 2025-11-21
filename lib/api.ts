@@ -46,7 +46,8 @@ export const ProductsAPI = {
 		if (options?.minPrice !== undefined) params.append('minPrice', options.minPrice.toString());
 		if (options?.maxPrice !== undefined) params.append('maxPrice', options.maxPrice.toString());
 		if (options?.minRating !== undefined) params.append('minRating', options.minRating.toString());
-		return apiClient<{ products: ProductInterface[]; total: number }>(`/api/products?${params.toString()}`, { method: 'GET' });
+
+		return apiClient<{ products: ProductInterface[]; total: number }>(`/api/products?${params.toString()}`, { method: 'GET', cache: 'no-store' });
 	},
 	getProduct: (options?: { slug?: string }) => {
 		return apiClient<ProductInterface>(`/api/products/${options?.slug}`, { method: 'GET' });

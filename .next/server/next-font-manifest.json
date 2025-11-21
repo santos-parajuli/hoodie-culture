@@ -1,23 +1,6 @@
 {
-  "app": {
-    "[project]/app/(client)/cart/page": [
-      "static/media/c9f6ebf08ddd616b-s.p.8e1a882d.woff2",
-      "static/media/da53e3bd966c3ed5-s.p.ed03afd6.woff2"
-    ],
-    "[project]/app/(client)/page": [
-      "static/media/c9f6ebf08ddd616b-s.p.8e1a882d.woff2",
-      "static/media/da53e3bd966c3ed5-s.p.ed03afd6.woff2"
-    ],
-    "[project]/app/(client)/products/[slug]/page": [
-      "static/media/c9f6ebf08ddd616b-s.p.8e1a882d.woff2",
-      "static/media/da53e3bd966c3ed5-s.p.ed03afd6.woff2"
-    ],
-    "[project]/app/(client)/products/page": [
-      "static/media/c9f6ebf08ddd616b-s.p.8e1a882d.woff2",
-      "static/media/da53e3bd966c3ed5-s.p.ed03afd6.woff2"
-    ]
-  },
-  "appUsingSizeAdjust": true,
+  "app": {},
+  "appUsingSizeAdjust": false,
   "pages": {},
   "pagesUsingSizeAdjust": false
 }

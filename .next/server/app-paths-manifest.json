@@ -1,10 +1,1 @@
-{
-  "/(client)/cart/page": "app/(client)/cart/page.js",
-  "/(client)/page": "app/(client)/page.js",
-  "/(client)/products/[slug]/page": "app/(client)/products/[slug]/page.js",
-  "/(client)/products/page": "app/(client)/products/page.js",
-  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
-  "/api/categories/route": "app/api/categories/route.js",
-  "/api/products/[slug]/route": "app/api/products/[slug]/route.js",
-  "/api/products/route": "app/api/products/route.js"
-}
+{}
